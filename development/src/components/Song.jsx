@@ -8,7 +8,7 @@ function Song(props) {
         // meaning we need to query into this and get the names of each member, and maybe gen
   return (
     <div>
-        <h2>{props.song=='all' ? 'Select a song' : props.song}</h2>
+        
         <ul>
             {props.songMembers.map((member, index) => (
                 <li key={index}>{member.name} {member.gen}</li>

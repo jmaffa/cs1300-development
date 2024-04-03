@@ -1,0 +1,8 @@
+#sort-container{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: 1em; */
+  width: 100%;
+  justify-self: left;
+}

@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+import './Card.css'
 function Card(props) {
   return (
-    <div>
+    <div className='member-card'>
         <h2>{props.member.name}</h2>
         <img src={props.member.photo}></img>
         <h3>Gen {props.member.gen}</h3>

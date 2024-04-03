@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+import './Roster.css'
 import Card from './Card'
 export default function Roster(props) {
   const sortedMembers = props.gendoData.sort((a, b) => {
@@ -34,9 +35,13 @@ export default function Roster(props) {
   });
   return (
     <div>
+      <h2>Roster</h2>
+      <div id='roster'>
         {filteredMembers.map((member, index) => (
           <Card key={index} member={member} addToSong={props.addToSong} songMembers={props.songMembers}></Card>
         ))}
+      </div>
     </div>
+    
   )
 }

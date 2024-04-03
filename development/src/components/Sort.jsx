@@ -1,8 +1,9 @@
 import React from 'react'
-
+import './Sort.css'
 function Sort(props) {
   return (
-    <div>
+    <div id='sort-container'>
+      <h3>Sort roster by:</h3>
       <select onChange={props.changeSort}>
         <option value="name">Name</option>
         <option value="gen">Gen</option>
