@@ -34,13 +34,10 @@ export default function Roster(props) {
   
   });
   return (
-    <div>
-      <h2>Roster</h2>
-      <div id='roster'>
-        {filteredMembers.map((member, index) => (
-          <Card key={index} member={member} addToSong={props.addToSong} songMembers={props.songMembers}></Card>
-        ))}
-      </div>
+    <div id='roster'>
+      {filteredMembers.map((member, index) => (
+        <Card key={index} member={member} addToSong={props.addToSong} songMembers={props.songMembers}></Card>
+      ))}
     </div>
     
   )

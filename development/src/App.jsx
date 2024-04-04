@@ -48,10 +48,16 @@ function App() {
   return (
     <div id='container'>
       <h1>Gendo Song Picker</h1>
-      <Dropdown clearFilters={clearFilters} changeSong={changeSong} song={song} songMembers={songMembers} clearSong={clearSong} changeGen={changeGen} gen={gen}></Dropdown>
-      {/* <Song song={song} songMembers={songMembers} clearSong={clearSong}></Song> */}
-      <Sort changeSort={changeSort} changeOrder={changeOrder} ascending={ascending}></Sort>
-      <Roster song={song} gen={gen} gendoData={gendoData} addToSong={addToSong} sort={sort} ascending={ascending} songMembers={songMembers}></Roster>
+      <Dropdown clearFilters={clearFilters} changeSong={changeSong}
+        song={song} songMembers={songMembers} addToSong={addToSong}
+        clearSong={clearSong} changeGen={changeGen} gen={gen} 
+        />
+      <Sort changeSort={changeSort} changeOrder={changeOrder} ascending={ascending}/>
+      <Roster 
+        song={song} gen={gen} gendoData={gendoData} 
+        addToSong={addToSong} sort={sort} ascending={ascending} 
+        songMembers={songMembers}
+        />
     </div>
   )
 }

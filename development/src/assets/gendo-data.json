@@ -1,49 +1,49 @@
 [
     {
         "name": "Sam Leung",
-        "photo": "https://www.google.com",
+        "photo": "images/sam.JPG",
         "graduating": 2024,
         "gen": 16,
         "songs": ["Agari Yatai", "Cyclone", "Dokokara", "Jack Bazaar", "Korekara", "Matsuri", "Miyake", "Nadare", "Omiyage", "Tamaire", "Tatsumaki", "Yatai"]
     },
     {
         "name": "Kikuyo Shaw",
-        "photo": "https://www.google.com",
+        "photo": "images/kiku.JPG",
         "graduating": 2024,
         "gen": 17,
         "songs": ["Agari Yatai", "Cyclone", "Dokokara", "Jack Bazaar", "Korekara", "Matsuri", "Miyake", "Omiyage", "Tamaire", "Tetsumai", "Yatai"]
     },
     {
         "name": "Filbert Aung",
-        "photo": "https://www.google.com",
+        "photo": "images/filbert.JPG",
         "graduating": 2024,
         "gen": 17,
         "songs": ["Agari Yatai", "Dokokara", "Hachijo", "Korekara", "Matsuri", "Miyake", "Omiyage", "Tamaire", "Yatai", "Yoarashi"]
     },
     {
         "name": "Ford Rowe",
-        "photo": "https://www.google.com",
+        "photo": "images/ford.JPG",
         "graduating": 2024,
         "gen": 17,
         "songs": ["Agari Yatai", "Dokokara", "Hachijo", "Korekara", "Matsuri", "Miyake", "Omiyage", "Tatsumaki", "Yoarashi"]
     },
     {
         "name": "Rei Guo",
-        "photo": "https://www.google.com",
+        "photo": "images/rei.JPG",
         "graduating": 2025,
         "gen": 17,
         "songs": ["Agari Yatai", "Dokokara", "Matsuri", "Miyake", "Nadare", "Omiyage", "Yatai", "Yoarashi"]
     },
     {
         "name": "Caleb Solomon",
-        "photo": "https://www.google.com",
+        "photo": "images/caleb.JPG",
         "graduating": 2024,
         "gen": 18,
         "songs": ["Agari Yatai", "Cyclone", "Dokokara", "Korekara", "Matsuri", "Miyake", "Omiyage","Tatsumaki", "Tetsumai"]
     },
     {
         "name": "Ayaka Ono",
-        "photo": "https://www.google.com",
+        "photo": "images/ayaka.JPG",
         "graduating": 2025,
         "gen": 18,
         "songs": ["Agari Yatai", "Cyclone", "Jack Bazaar", "Korekara", "Matsuri", "Miyake", "Nadare", "Omiyage"]
@@ -51,7 +51,7 @@
     },
     {
         "name": "Ethan Jiang",
-        "photo": "https://www.google.com",
+        "photo": "images/ethan.JPG",
         "graduating": 2025,
         "gen": 18,
         "songs": ["Agari Yatai", "Cyclone", "Dokokara", "Jack Bazaar", "Korekara", "Matsuri", "Miyake", "Omiyage", "Tamaire", "Tatsumaki", "Tetsumai", "Yatai"]
@@ -59,133 +59,112 @@
     },
     {
         "name": "Joe Maffa",
-        "photo": "https://www.google.com",
+        "photo": "images/joe.JPG",
         "graduating": 2025,
         "gen": 18,
         "songs": ["Agari Yatai", "Cyclone", "Hachijo", "Jack Bazaar", "Korekara", "Matsuri", "Miyake", "Nadare", "Omiyage", "Tamaire", "Tatsumaki", "Tetsumai", "Yatai"]
     },
     {
-        "name": "Logan Schultz",
-        "photo": "https://www.google.com",
-        "graduating": 2026,
-        "gen": 18,
-        "songs": ["Dokokara", "Jack Bazaar"]
-    },
-    {
         "name": "Jedidiah Davis",
-        "photo": "https://www.google.com",
+        "photo": "images/jedidiah.JPG",
         "graduating": 2025,
         "gen": 18,
         "songs": ["Agari Yatai", "Cyclone", "Dokokara", "Hachijo", "Jack Bazaar", "Korekara", "Matsuri", "Miyake", "Omiyage", "Tamaire", "Tatsumaki", "Tetsumai", "Yatai"]
     },
     {
         "name": "Emily Tom",
-        "photo": "https://www.google.com",
+        "photo": "images/emily.JPG",
         "graduating": 2025,
         "gen": 18,
         "songs": ["Dokokara", "Hachijo", "Jack Bazaar", "Korekara", "Matsuri", "Miyake", "Nadare", "Omiyage", "Tatsumaki", "Tetsumai", "Yoarashi"]
     },
     {
-        "name": "Ray Ho",
-        "photo": "https://www.google.com",
-        "graduating": 2025,
-        "gen": 19,
-        "songs": ["Agari Yatai", "Matsuri", "Tatsumaki"]
-    },
-    {
         "name": "Ray Mandel-Mueller",
-        "photo": "https://www.google.com",
+        "photo": "images/ray.JPG",
         "graduating": 2026,
         "gen": 19,
         "songs": ["Agari Yatai", "Hachijo", "Korekara", "Matsuri", "Tamaire", "Tatsumaki", "Yatai"]
     },
     {
         "name": "Albert Tang",
-        "photo": "https://www.google.com",
+        "photo": "images/albert.JPG",
         "graduating": 2026,
         "gen": 19,
         "songs": ["Agari Yatai", "Dokokara", "Korekara", "Matsuri", "Tatsumaki"]
     },
     {
         "name": "J Banson",
-        "photo": "https://www.google.com",
+        "photo": "images/j.JPG",
         "graduating": 2026,
         "gen": 19,
         "songs": ["Agari Yatai", "Dokokara", "Jack Bazaar", "Korekara", "Matsuri", "Yoarashi"]
     },
     {
         "name": "Danny Castenheira",
-        "photo": "https://www.google.com",
+        "photo": "images/danny.JPG",
         "graduating": 2025,
         "gen": 19,
         "songs": ["Dokokara", "Jack Bazaar", "Korekara", "Matsuri", "Omiyage", "Tatsumaki", "Yoarashi"]
     },
     {
         "name": "Juju Mei",
-        "photo": "https://www.google.com",
+        "photo": "images/juju.JPG",
         "graduating": 2025,
         "gen": 19,
         "songs": ["Dokokara", "Jack Bazaar", "Korekara", "Matsuri", "Omiyage", "Tatsumaki", "Yatai", "Yoarashi"]
     },
     {
         "name": "Owen Cootey",
-        "photo": "https://www.google.com",
+        "photo": "images/owen.JPG",
         "graduating": 2025,
         "gen": 19,
         "songs": ["Hachijo", "Korekara", "Matsuri", "Omiyage", "Tamaire", "Tatsumaki", "Yatai", "Yoarashi"]
     },
     {
-        "name": "Daniel Joh Kang",
-        "photo": "https://www.google.com",
-        "graduating": 2025,
-        "gen": 19,
-        "songs": ["Korekara", "Matsuri", "Omiyage", "Tamaire", "Tatsumaki", "Yoarashi"]
-    },
-    {
         "name": "Ash Lassonde",
-        "photo": "https://www.google.com",
+        "photo": "images/ash.JPG",
         "graduating": 2027,
         "gen": 20,
         "songs": ["Agari Yatai", "Cyclone", "Dokokara", "Jack Bazaar", "Matsuri"]
     },
     {
         "name": "Andrew Mao",
-        "photo": "https://www.google.com",
+        "photo": "images/andrew.JPG",
         "graduating": 2027,
         "gen": 20,
         "songs": ["Agari Yatai", "Hachijo", "Matsuri"]
     },
     {
         "name": "Fiona McGill",
-        "photo": "https://www.google.com",
+        "photo": "images/fiona.JPG",
         "graduating": 2026,
         "gen": 20,
         "songs": ["Agari Yatai", "Jack Bazaar","Matsuri","Tetsumai"]
     },
     {
         "name": "Jenn Huynh",
-        "photo": "https://www.google.com",
+        "photo": "images/jenn.JPG",
         "graduating": 2026,
         "gen": 20,
         "songs": ["Agari Yatai", "Hachijo", "Matsuri", "Tamaire", "Yatai"]
     },
     {
         "name": "Sophia Chiu",
-        "photo": "https://www.google.com",
+        "photo": "images/sophia.JPG",
         "graduating": 2027,
         "gen": 20,
         "songs": ["Agari Yatai", "Matsuri", "Tatsumaki"]
     },
     {
         "name": "Taka Montez de Oca",
-        "photo": "https://www.google.com",
+        "photo": "images/taka.JPG",
         "graduating": 2027,
         "gen": 20,
         "songs": ["Agari Yatai", "Cyclone", "Dokokara", "Matsuri", "Miyake"]
     },
     {
         "name": "Takemi Sono-Knowles",
-        "photo": "https://www.google.com",
+        "photo": "images/takemi.JPG",
         "graduating": 2027,
         "gen": 20,
         "songs": ["Agari Yatai", "Hachijo", "Matsuri", "Tatsumaki"]

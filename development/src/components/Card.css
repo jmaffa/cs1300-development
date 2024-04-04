@@ -9,4 +9,35 @@
     border-radius: 0.5em;
     box-shadow: 0 0 1em #ccc;
     transition: transform 300ms;
+    width: 25vw;
+}
+.member-card h2{
+    font-size: 1.2em;
+    
+}
+.member-card h3{
+    font-size: 1em;
+    color:rgba(255, 255, 255, 0.831);
+}
+.member-card img{
+    width: 100%;
+    border-radius: 0.5em;
+}
+.known-songs{
+    height:80%
+}
+.known-songs-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.add-to-song-but {
+    justify-self: flex-end;
+}
+#button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
 }
