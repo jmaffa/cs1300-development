@@ -1,12 +1,11 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
 import './Sort.css'
+// Allows users to sort baesd on name, gen, or class year. Defaults to name in ascending order (A-Z)
 function Sort(props) {
   return (
     <div id='sort-container'>
       <h3>Sort roster by:</h3>
       <select id='sort-select' onChange={props.changeSort}>
-        {/* <option value="all">Choose sort</option> */}
         <option value="name">Name</option>
         <option value="gen">Gen</option>
         <option value="graduating">Graduation Year</option>

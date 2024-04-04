@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
 import './Card.css'
+
+// Displays members with relevant sorting/filtering information of name, gen, class year, and known songs
 function Card(props) {
   return (
     <div className='member-card'>

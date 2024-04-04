@@ -1,15 +1,15 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
 import Song from './Song';
 import './Dropdown.css'
 
+// Handles the different filter options including possible songs and gens.
 function Dropdown(props) {
     const songOptions = ["Agari Yatai", "Cyclone", "Dokokara", "Hachijo", "Jack Bazaar", "Korekara", "Matsuri", "Miyake", "Nadare", "Omiyage", "Tamaire", "Tatsumaki", "Tetsumai", "Yatai", "Yoarashi"];
     const genOptions = [16, 17, 18, 19, 20];
 
     // Function to handle clearing filters
     const clearFilters = () => {
-        props.clearFilters(); // Clear filters using the clearFilters prop
+        props.clearFilters(); 
         // Reset select values to default
         document.getElementById("songSelect").value = 'all';
         document.getElementById("genSelect").value = 'all';
@@ -17,7 +17,6 @@ function Dropdown(props) {
 
     return (
         <div id='dropdown-container'>
-            {/* <h2><h2>{props.song=='all' ? 'Select a song' : props.song}</h2></h2> */}
             <select id="songSelect" className="select-song" onChange={props.changeSong}>
                 <option value='all'>Choose song</option>
                 {songOptions.map((option, index) => (

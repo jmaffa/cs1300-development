@@ -1,11 +1,7 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
 import './Song.css'
+// Displays the current song members and allows for removal of members. Also counts the number of members in the song
 function Song(props) {
-    // maybe holding a list of all the members in the song which is a useState
-    // props has song := "tetsumai", "agari yatai", etc.
-    // props has members := [member1, member2, "member3", etc.]
-        // meaning we need to query into this and get the names of each member, and maybe gen
   return (
     <div id="song-container">
         <ul id="song-member-list">

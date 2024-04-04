@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
 import './Roster.css'
 import Card from './Card'
+// Displays the current roster of members, sorted and filtered based on user input
 export default function Roster(props) {
+  // Sorts members based on the currently selected sorting method: name, gen, graduating
   const sortedMembers = (props.sort==='all' ? props.gendoData : props.gendoData.sort((a, b) => {
     if (props.sort === 'name' && props.ascending) {
       return a.name.localeCompare(b.name);
@@ -21,6 +22,8 @@ export default function Roster(props) {
     }
     return 0; // If props.sort is not recognized
   }));
+
+  // Filters the members based on the currently selected song and gen
   const filteredMembers = sortedMembers.filter((member) => {
     if (props.song === 'all' && props.gen === 'all') {
       return true;
@@ -34,6 +37,7 @@ export default function Roster(props) {
     return member.songs.includes(props.song) && member.gen === parseInt(props.gen);
   
   });
+  // Returns the applicable members as a list of cards.
   return (
     <div id='roster'>
       {filteredMembers.map((member, index) => (
