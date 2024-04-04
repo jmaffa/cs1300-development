@@ -49,6 +49,7 @@ function App() {
   return (
     <div id='container'>
       <h1>Gendo Song Picker</h1>
+      <p>Select a song and add members to it! Use the song and gen filters to find only people that know the song in specific generations. Optionally, choose to sort the member list by name, graduation year, or gen!</p>
       <Dropdown clearFilters={clearFilters} changeSong={changeSong}
         song={song} songMembers={songMembers} addToSong={addToSong}
         clearSong={clearSong} changeGen={changeGen} gen={gen} 
