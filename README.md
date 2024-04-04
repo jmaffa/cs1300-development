@@ -1,8 +1,19 @@
-# cs1300-development
+# Development
 
-# Link to your deployed React app, running on Vercel (check that this link is viewable even in incognito mode!)
-# Instructions on how to locally run your application (similar to default React README)
-# Any known bugs
+## Information
+This is a project completed for CSCI1300: UI/UX at Brown University. It demonstrates a React app that implements a list aggregation system. The specific functionality is one that allows users to allocate members of Gendo Taiko to songs in their repertoire; this is helpful to use when allocating members to a song for a performance.
 
+## Link to your deployed React app
+Visit my [deployed app](https://development-gendo-aggregator.vercel.app/)
 
-Idea is to have a list of all Gendo members and then be able to sort them by class year or by songs known and then you can aggregate them into a song that you want to do
+## How to run my app
+In order to run my app locally
+
+`cd development`
+
+`npm install`
+
+`npm run dev`
+
+## Known Bugs
+None as far as I know!

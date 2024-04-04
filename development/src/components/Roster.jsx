@@ -3,7 +3,7 @@ import React from 'react'
 import './Roster.css'
 import Card from './Card'
 export default function Roster(props) {
-  const sortedMembers = props.gendoData.sort((a, b) => {
+  const sortedMembers = (props.sort==='all' ? props.gendoData : props.gendoData.sort((a, b) => {
     if (props.sort === 'name' && props.ascending) {
       return a.name.localeCompare(b.name);
     } else if (props.sort === 'name' && !props.ascending) {
@@ -16,10 +16,11 @@ export default function Roster(props) {
       return b.gen - a.gen;
     } else if (props.sort === 'gen' && props.ascending) {
       return a.gen - b.gen;
+    } else if (props.sort === 'all') {
+      return 0;
     }
-    
     return 0; // If props.sort is not recognized
-  });
+  }));
   const filteredMembers = sortedMembers.filter((member) => {
     if (props.song === 'all' && props.gen === 'all') {
       return true;

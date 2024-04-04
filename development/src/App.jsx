@@ -34,6 +34,7 @@ function App() {
   }
   const changeSort = (e) => {
     setSort(e.target.value)
+    // console.log(e.target.value)
   }
   const changeOrder = () => {
     setAscending(!ascending)
